@@ -1,0 +1,114 @@
+.HomePage_cover {
+  z-index: 0;
+  max-width: 100%;
+  height: calc(100vh - 130px);
+  img {
+    object-fit: cover;
+  }
+  .cover-content {
+    display: flex;
+    padding: 0px;
+    background-color: #7c4b4bc9;
+    width: 30%;
+    font-size: 1rem;
+    height: 180px;
+    position: absolute;
+    left: 65%;
+    bottom: 250px;
+    z-index: 4;
+    transition: 0.8s;
+    &:hover {
+      display: block;
+      background-color: #694242d7;
+      width: 60%;
+      transition: 0.8s;
+      left: 40%;
+    }
+    p {
+      color: white;
+      padding: 20px;
+    }
+  }
+
+  .concept {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    top: -120px;
+    background-color: #7c4b4b;
+    padding: 10px;
+    height: 100px;
+    p {
+      text-align: center;
+      font-size: 0.8rem;
+      color: white;
+      .title {
+        font-size: 1rem;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .HomePage_cover {
+    .cover-content {
+      width: 100%;
+      position: static;
+      font-size: 1.1rem;
+      position: absolute;
+      left: 0%;
+      height: 120px;
+      top: 58%;
+      margin: 0 auto;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      transition: 0.5s;
+      p {
+        text-align: center;
+        width: 95%;
+        padding: 5px;
+      }
+      &:hover {
+        width: 100%;
+        left: 0%;
+        transition: 0.8s;
+        display: flex;
+        justify-content: center;
+      }
+    }
+    .concept {
+      padding: 5px;
+      height: 90px;
+      top: -100px;
+      p {
+        text-align: center;
+        font-size: 0.6rem;
+        color: white;
+        .title {
+          font-size: 0.8rem;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .HomePage_cover {
+    padding-bottom: 30px;
+    .cover-content {
+      display: none;
+    }
+    .concept {
+      position: relative;
+      height: 90px;
+      top: -70px;
+      margin-bottom: 15px;
+    }
+  }
+}

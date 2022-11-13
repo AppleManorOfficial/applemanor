@@ -1,0 +1,352 @@
+.herbalAll {
+  min-height: calc(100vh - 130px);
+
+  .herbal {
+    padding-top: 120px;
+    padding-bottom: 20px;
+    margin: 0px 5%;
+
+    .herbal_title {
+      width: 80%;
+      margin: 0 auto;
+      font-size: 1.75rem;
+      font-weight: 600;
+      color: #7c4b4b;
+    }
+    .herbal_content {
+      font-size: 1.25rem;
+      width: 80%;
+      margin: 0 auto;
+      p {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+      .readMore {
+        display: block;
+        padding: 5px;
+        margin: 0 auto;
+        font-size: 0.6rem;
+      }
+    }
+    .productList_detail {
+      width: 80%;
+      display: grid;
+      margin: auto;
+      grid-template-columns: repeat(3, 3fr);
+      gap: 10px;
+
+      a {
+        text-decoration: none;
+      }
+      .product_card {
+        width: 100%;
+        background-color: #efd7d7;
+        border-radius: 8px;
+        max-width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: black;
+        padding: 10px;
+        margin: 0 auto;
+
+        &:hover {
+          color: white;
+          background-color: #7c4b4b;
+          transition: 0.3s;
+        }
+        .product_photo {
+          max-width: 250px;
+          height: 250px;
+          border-radius: 8px;
+          overflow: hidden;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .product_title {
+          font-size: 1.3rem;
+          font-weight: 800;
+          width: 90%;
+          padding: 3px;
+          display: flex;
+          justify-content: center;
+          text-decoration: none;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 1;
+          overflow: hidden;
+          text-align: center;
+        }
+        .product_description {
+          font-size: 1rem;
+          font-weight: 400;
+          width: 90%;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 3;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+}
+.show1 {
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.32);
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  .product_detail {
+    padding-bottom: 20px;
+    background-color: lighten(#7c4b4b, 60%);
+    margin: 0px auto;
+    height: 80vh;
+    overflow-y: scroll;
+    width: 600px;
+    border-radius: 8px;
+
+    .content_card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .product_info {
+        font-weight: bolder;
+        font-size: 1rem;
+        text-align: start;
+      }
+      .content_box {
+        background-color: lighten(#7c4b4b, 50%);
+        border-radius: 8px;
+        padding: 20px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: 10px 20px;
+        color: #7c4b4b;
+        .product_title {
+          font-size: 1.5rem;
+          font-weight: 600;
+          text-align: center;
+        }
+        .product_description {
+          font-size: 1rem;
+          margin-bottom: 20px;
+          font-weight: 600;
+        }
+        .product_origin {
+          font-size: 1rem;
+          color: black;
+          margin-bottom: 5px;
+          .tick_icon {
+            color: #7c4b4b;
+            width: 20px;
+          }
+        }
+        .product_content {
+          font-size: 1rem;
+          color: black;
+          margin-bottom: 5px;
+          .tick_icon {
+            color: #7c4b4b;
+            width: 20px;
+          }
+        }
+        .product_spec {
+          font-size: 1rem;
+          color: black;
+          margin-bottom: 5px;
+          .tick_icon {
+            color: #7c4b4b;
+            width: 20px;
+          }
+        }
+        .product_remark {
+          font-size: 1rem;
+          color: black;
+          margin-bottom: 5px;
+          .tick_icon {
+            color: #7c4b4b;
+            width: 20px;
+          }
+        }
+      }
+      .product_photo {
+        margin-top: 10px !important;
+        width: 300px;
+        height: 300px;
+        border-radius: 8px;
+        overflow: hidden;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .closeButton {
+        font-size: 2rem;
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .herbalAll {
+    min-height: calc(100vh - 130px);
+    .herbal {
+      .herbal_title {
+        font-size: 1.5rem;
+      }
+      .herbal_content {
+        font-size: 1.1rem;
+      }
+      .productList_detail {
+        grid-template-columns: repeat(2, 2fr);
+        gap: 10px;
+        .product_card {
+          padding: 10px;
+          .product_photo {
+            max-width: 240px;
+            height: 220px;
+          }
+          .product_title {
+            font-size: 1.1rem;
+          }
+          .product_description {
+          }
+        }
+      }
+    }
+  }
+  .show1 {
+    .product_detail {
+      .content_card {
+        .content_box {
+          .product_title {
+          }
+          .product_description {
+          }
+          .product_origin {
+          }
+          .product_content {
+          }
+          .product_spec {
+          }
+          .product_remark {
+          }
+        }
+        .product_photo {
+          img {
+          }
+        }
+        .closeButton {
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .herbalAll {
+    min-height: calc(100vh - 100px);
+    .herbal {
+      margin: 0 auto;
+      width: 90%;
+      .herbal_title {
+        width: 90%;
+        font-size: 1.1rem;
+      }
+      .herbal_content {
+        width: 90%;
+        p {
+          font-size: 0.8rem;
+        }
+        .readMore {
+          display: block;
+        }
+      }
+      .productList_detail {
+        padding: 0px;
+        width: 100%;
+        gap: 5px;
+        .product_card {
+          // max-width: 200px;
+          width: 95%;
+          padding: 8px;
+          .product_photo {
+            // max-width: 180px;
+            height: 180px;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .product_title {
+            font-size: 0.8rem !important;
+            -webkit-line-clamp: 1;
+          }
+          .product_description {
+            font-size: 0.6rem !important;
+            width: 95%;
+          }
+        }
+      }
+    }
+  }
+  .show1 {
+    .product_detail {
+      min-width: 300px;
+      width: 90%;
+      height: 70vh !important;
+      overflow-y: scroll;
+      padding: 5px;
+
+      .content_card {
+        width: 100%;
+
+        .content_box {
+          .product_title {
+          }
+          .product_description {
+          }
+          .product_origin {
+            .tick_icon {
+            }
+          }
+          .product_content {
+            .tick_icon {
+            }
+          }
+          .product_spec {
+            .tick_icon {
+            }
+          }
+          .product_remark {
+            .tick_icon {
+            }
+          }
+        }
+        .product_photo {
+          width: calc(80% + 40px);
+          margin-top: 0px;
+          overflow: hidden;
+          img {
+          }
+        }
+        .closeButton {
+          color: #7c4b4b;
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }
+}
