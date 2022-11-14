@@ -1,0 +1,23 @@
+.Page404 {
+  margin: 0 5%;
+  padding-top: 120px;
+  min-height: calc(100vh - 270px);
+  height: 100%;
+  padding-bottom: 20px;
+  .mark {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 5rem;
+    font-weight: 600;
+    color: #7c4b4b;
+  }
+  .des {
+    font-size: 1.25rem;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+}
