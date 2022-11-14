@@ -1,4 +1,4 @@
-## 蘋果莊園改版
+## 蘋果莊園
 
 ### 舊版網址：https://applemanorpg.appspot.com/
 
