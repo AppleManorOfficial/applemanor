@@ -1,4 +1,4 @@
-## 蘋果莊園 改版專案
+## 蘋果莊園 改版專案 vol 1.0
 
 ### 舊版網址：https://applemanorpg.appspot.com/
 
