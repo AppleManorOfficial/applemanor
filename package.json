@@ -1,8 +1,8 @@
 {
-  "name": "applemanor.github.io",
+  "name": "applemanor",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://AppleManorOfficial.github.io/applemanor.github.io",
+  "homepage": "https://AppleManorOfficial.github.io/applemanor",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -25,8 +25,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
