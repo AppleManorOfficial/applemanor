@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Footer.scss';
 import faceBook from '../../image/facebook.png';
 import line from '../../image/line.png';

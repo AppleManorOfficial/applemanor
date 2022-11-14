@@ -1,12 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import Alert from 'react-bootstrap/Alert';
-import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineKeyboardReturn } from 'react-icons/md';
-import { AiOutlineClose } from 'react-icons/ai';
 import './RWDmenu.scss';
 import logo from '../../image/306123745_597693085395113_5652336624228434910_n.jpg';
 

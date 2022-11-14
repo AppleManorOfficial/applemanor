@@ -1,7 +1,5 @@
 import React from 'react';
 import './AboutUs.scss';
-import natural1 from '../../image/forest-3622519_960_720.webp';
-import natural2 from '../../image/sunflower-1127174_960_720.webp';
 
 function aboutUs() {
   return (

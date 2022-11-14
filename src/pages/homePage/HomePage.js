@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import homepageCover2 from '../../image/2-1.png';
 import homepageCover1 from '../../image/cover.jpg';
 import './HomePage.scss';

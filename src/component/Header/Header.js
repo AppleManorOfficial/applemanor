@@ -1,15 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.scss';
-import { GiHamburgerMenu } from 'react-icons/gi';
-import Button from 'react-bootstrap/Button';
-import Offcanvas from 'react-bootstrap/Offcanvas';
-import bootstrap from 'react-bootstrap';
-import { Navbar, Nav } from 'react-bootstrap';
-import { MdOutlineKeyboardReturn } from 'react-icons/md';
+import { Nav } from 'react-bootstrap';
 import logo from '../../image/306123745_597693085395113_5652336624228434910_n.jpg';
 import RWDmenu from './RWDmenu';
-// import ScrollToTop from '../scrollToTop/ScrollToTop';
 
 function Header() {
   return (
