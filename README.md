@@ -1,4 +1,4 @@
-## 蘋果莊園 test
+## 蘋果莊園 改版專案
 
 ### 舊版網址：https://applemanorpg.appspot.com/
 
