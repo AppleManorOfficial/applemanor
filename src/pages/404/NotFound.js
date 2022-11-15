@@ -1,5 +1,5 @@
 import React from 'react';
-import './Page404.scss';
+import './NotFound.scss';
 
 function Page404() {
   return (

@@ -32,7 +32,7 @@ function RWDmenu() {
             className="click_icon"
           ></GiHamburgerMenu>
         )}
-        <Link to="/applemanor">
+        <Link to="/homepage">
           <div className="logo">
             <img src={logo} width="60" height="60" alt="" />
           </div>

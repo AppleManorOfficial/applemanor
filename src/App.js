@@ -9,7 +9,7 @@ import ProductListHandMade from './pages/productList/productList-HandMade';
 import ProductListLiving from './pages/productList/productList-Living';
 import ProductListHerbal from './pages/productList/productList-Herbal';
 import ProductListGift from './pages/productList/productList-Gift';
-import Page404 from './pages/404/Page404';
+import NotFound from './pages/404/NotFound';
 import ScrollToTop from './component/scrollToTop/ScrollToTop';
 import './App.scss';
 import ContatctUs from './pages/ContactUs/ContatctUs';
@@ -19,9 +19,9 @@ function App() {
     <div className="app">
       <Header></Header>
       <ScrollToTop />
-      <Routes basename="/applemanor">
-        <Route path="*" element={<Page404></Page404>}></Route>
-        <Route exact path="/applemanor" element={<Homepage></Homepage>}></Route>
+      <Routes>
+        <Route path="*" element={<NotFound></NotFound>}></Route>
+        <Route exact path="/homepage" element={<Homepage></Homepage>}></Route>
         <Route exact path="/aboutus" element={<AboutUs></AboutUs>}></Route>
         <Route
           exact

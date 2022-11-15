@@ -30,7 +30,7 @@ function Header() {
             <p className="english">Herbal Product</p>
           </li>
         </Link>
-        <Link to="/applemanor">
+        <Link to="/homepage">
           <div className="logo">
             <img src={logo} alt="" />
           </div>
