@@ -159,7 +159,6 @@ function ProductListLiving() {
                           return (
                             <>
                               <div className="product_remark">
-                                {' '}
                                 <TiTick className="tick_icon"></TiTick>
                                 {data}
                               </div>
