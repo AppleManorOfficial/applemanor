@@ -21,7 +21,7 @@ function App() {
       <ScrollToTop />
       <Routes basename="/applemanor">
         <Route path="*" element={<Page404></Page404>}></Route>
-        <Route exact path="/homepage" element={<Homepage></Homepage>}></Route>
+        <Route exact path="/applemanor" element={<Homepage></Homepage>}></Route>
         <Route exact path="/aboutus" element={<AboutUs></AboutUs>}></Route>
         <Route
           exact
