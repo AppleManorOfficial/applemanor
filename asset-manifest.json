@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/applemanor/static/css/main.0f19bd79.css",
-    "main.js": "/applemanor/static/js/main.b548c0f9.js",
+    "main.js": "/applemanor/static/js/main.71766a40.js",
     "static/media/1-1 2.png": "/applemanor/static/media/1-1 2.2257db7cb164b7297d30.png",
     "static/media/2-11.png": "/applemanor/static/media/2-11.be7d67370c1d64fc4cc7.png",
     "static/media/2-1 2.png": "/applemanor/static/media/2-1 2.79cae2f277b72f3c4ba6.png",
@@ -100,10 +100,10 @@
     "static/media/favicon.ico": "/applemanor/static/media/favicon.5bcdceaa987950b2eb1e.ico",
     "index.html": "/applemanor/index.html",
     "main.0f19bd79.css.map": "/applemanor/static/css/main.0f19bd79.css.map",
-    "main.b548c0f9.js.map": "/applemanor/static/js/main.b548c0f9.js.map"
+    "main.71766a40.js.map": "/applemanor/static/js/main.71766a40.js.map"
   },
   "entrypoints": [
     "static/css/main.0f19bd79.css",
-    "static/js/main.b548c0f9.js"
+    "static/js/main.71766a40.js"
   ]
 }
