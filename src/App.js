@@ -20,8 +20,8 @@ function App() {
       <Header></Header>
       <ScrollToTop />
       <Routes>
-        <Route path="*" element={<NotFound></NotFound>}></Route>
-        <Route exact path="/applemanor" element={<Homepage></Homepage>}></Route>
+        <Route exact path="*" element={<NotFound></NotFound>}></Route>
+        <Route exact path="/" element={<Homepage></Homepage>}></Route>
         <Route exact path="/aboutus" element={<AboutUs></AboutUs>}></Route>
         <Route
           exact

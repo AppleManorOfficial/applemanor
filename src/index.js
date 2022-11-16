@@ -7,7 +7,7 @@ import '../node_modules/react-bootstrap/dist/react-bootstrap';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/applemanor">
     <App />
   </BrowserRouter>
 );
